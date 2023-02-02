@@ -1,0 +1,25 @@
+/* antd overwrite */
+
+.imei-unlock-tool .ant-alert-success,
+.imei-unlock-tool .ant-alert-error {
+    border-style: dashed;
+}
+
+.imei-unlock-tool .ant-alert-success .ant-alert-message {
+    color: green;
+}
+.imei-unlock-tool .ant-alert-error .ant-alert-message {
+    color: red;
+}
+
+/* unlock imei css */
+
+.mg-b--8 {
+    margin-bottom: 8px;
+}
+.mg-b--16 {
+    margin-bottom: 16px;
+}
+.mg-t--16 {
+    margin-top: 16px;
+}

@@ -1,0 +1,38 @@
+{
+    "name": "@ivoyant/component-unlockimei-tool",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "UnlockImei Tool",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ant-design/icons": "^5.0.0",
+        "@ivoyant/component-cache": "^1.0.0",
+        "@ivoyant/component-message-bus": "^1.0.0",
+        "@ivoyant/component-notes": "^1.0.0",
+        "@storybook/react": "^6.5.15",
+        "moment": "^2.24.0",
+        "react-quill": "^2.0.0",
+        "shortid": "^2.2.16"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "1.1.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
